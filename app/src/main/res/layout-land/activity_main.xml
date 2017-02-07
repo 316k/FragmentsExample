@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="ca.umontreal.iro.hurtubin.fragmentsexample.TodoFragment"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/hello_fragment"
+        android:layout_marginStart="15dp"
+        android:id="@+id/todo_fragment"
+        tools:layout="@layout/todo_view" />
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="ca.umontreal.iro.hurtubin.fragmentsexample.HelloFragment"
+        android:id="@+id/hello_fragment"
+        tools:layout="@layout/hello_view"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
