@@ -1,11 +1,9 @@
 package ca.umontreal.iro.hurtubin.fragmentsexample;
 
-import android.icu.util.Calendar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
